@@ -1,0 +1,12 @@
+﻿<div class="row mt-5">
+    <div class="col-8 offset-2" *ngIf="chartData.length > 0">
+        <canvas baseChart
+                [datasets]="chartData"
+                [labels]="chartLabels"
+                [options]="chartOptions"
+                [legend]="chartLegend"
+                [chartType]="chartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+    </div>
+</div>

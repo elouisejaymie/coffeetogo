@@ -1,0 +1,9 @@
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\obj\Debug\netcoreapp2.0\CoffeeToGo.Entities.csprojResolveAssemblyReference.cache
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\obj\Debug\netcoreapp2.0\CoffeeToGo.Entities.csproj.CoreCompileInputs.cache
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\obj\Debug\netcoreapp2.0\CoffeeToGo.Entities.AssemblyInfoInputs.cache
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\obj\Debug\netcoreapp2.0\CoffeeToGo.Entities.AssemblyInfo.cs
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\bin\Debug\netcoreapp2.0\CoffeeToGo.Entities.deps.json
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\bin\Debug\netcoreapp2.0\CoffeeToGo.Entities.dll
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\bin\Debug\netcoreapp2.0\CoffeeToGo.Entities.pdb
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\obj\Debug\netcoreapp2.0\CoffeeToGo.Entities.dll
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Entities\obj\Debug\netcoreapp2.0\CoffeeToGo.Entities.pdb

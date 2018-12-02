@@ -1,0 +1,10 @@
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\bin\Debug\CoffeeToGo.Database.dacpac
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\bin\Debug\CoffeeToGo.Database.dll
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\bin\Debug\CoffeeToGo.Database.pdb
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\obj\Debug\CoffeeToGo.Database.sqlprojResolveAssemblyReference.cache
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\obj\Debug\CoffeeToGo.Database.dll
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\obj\Debug\CoffeeToGo.Database.pdb
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\obj\Debug\Model.xml
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\obj\Debug\refactor.xml
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\obj\Debug\postdeploy.sql
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Database\obj\Debug\predeploy.sql

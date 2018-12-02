@@ -1,0 +1,45 @@
+﻿body {
+    font-size: 12px;
+}
+
+#selections-container {
+    background: #fff;
+   
+    .card {
+        background: #fafafa;
+        margin-right: 2rem;
+        text-align: center;
+
+        .card-body {
+            padding-bottom: 0;
+        }
+    }
+
+    .card:hover {
+        cursor: pointer;
+        border-color: #C9E3ED;
+    }
+
+    img {
+        margin: 1rem 1rem 0 1rem;
+        height: 155px;
+        width: 195px;
+    }
+}
+
+#orders-container {
+    .mat-form-field {
+        width: 100%;
+    }
+}
+
+.reports {
+    table {
+        width: 100%;
+    }
+}
+
+.button-small.mat-raised-button {
+    min-width: 50px;
+    font-size: 16px;
+}

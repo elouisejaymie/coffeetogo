@@ -1,0 +1,11 @@
+﻿<div class="row mt-5">
+    <div class="col-8 offset-2">
+        <canvas baseChart                        
+                [data]="chartData"
+                [labels]="chartLabels"
+                [chartType]="chartType"                
+                [options]="chartOptions"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+    </div>
+</div>

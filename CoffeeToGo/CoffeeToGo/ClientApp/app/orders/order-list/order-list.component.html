@@ -1,0 +1,57 @@
+﻿<div class="row mt-5">
+    <div class="col-6 offset-2">
+        <div id="selections-container" class="d-flex flex-row flex-wrap">
+            <div *ngFor="let beverage of beverages">
+                <div class="card">
+                    <a (click)="addToOrder(beverage)">
+                        <img class="card-img-top" src="/dist/style/assets/{{ beverage.beverageId }}.jpg" />
+                        <div class="card-body">
+                            <div class="card-title"><h6>{{ beverage.name }}</h6></div>
+                        </div>
+                    </a>
+                    <div class="card-footer">
+                        <button mat-raised-button class="button-small mr-2" (click)="addToOrder(beverage)">+</button>
+                        <button mat-raised-button class="button-small" (click)="removeFromOrder(beverage)">-</button>
+                    </div>                  
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        <div id="orders-container" *ngIf="orders.length > 0">
+            <h5>Orders Summary</h5>
+            <table class="table mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">Coffee</th>
+                        <th scope="col">Qty</th>                                  
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let order of orderSummary">
+                        <td>{{ order.beverage }}</td>    
+                        <td>{{ order.quantity }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <form [formGroup]='orderForm' (ngSubmit)="onOrderFormSubmit()">                
+                <div class="mb-2">
+                    <mat-form-field>
+                        <input matInput formControlName="name" placeholder="Name">
+                        <mat-error *ngIf="orderForm.controls.name.errors?.required">You must enter a value</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="mb-5">
+                    <mat-form-field>
+                        <textarea matInput formControlName="specialrequests" placeholder="Special Requests"></textarea>
+                    </mat-form-field>
+                </div>
+                <div class="button-row text-center">
+                    <button mat-raised-button class="mr-2" [disabled]="sendingOrder" (click)="onOrderCancel()">Cancel</button>
+                    <button mat-raised-button [disabled]="orderForm.invalid || sendingOrder">Submit</button>
+                    <div class="mt-3" *ngIf="sendingOrder">Sending Order...</div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

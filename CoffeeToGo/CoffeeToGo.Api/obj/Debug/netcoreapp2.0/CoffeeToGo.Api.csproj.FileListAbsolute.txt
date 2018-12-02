@@ -1,0 +1,11 @@
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\bin\Debug\netcoreapp2.0\CoffeeToGo.Api.deps.json
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\bin\Debug\netcoreapp2.0\CoffeeToGo.Api.runtimeconfig.json
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\bin\Debug\netcoreapp2.0\CoffeeToGo.Api.runtimeconfig.dev.json
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\bin\Debug\netcoreapp2.0\CoffeeToGo.Api.dll
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\bin\Debug\netcoreapp2.0\CoffeeToGo.Api.pdb
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\obj\Debug\netcoreapp2.0\CoffeeToGo.Api.csprojResolveAssemblyReference.cache
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\obj\Debug\netcoreapp2.0\CoffeeToGo.Api.csproj.CoreCompileInputs.cache
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\obj\Debug\netcoreapp2.0\CoffeeToGo.Api.AssemblyInfoInputs.cache
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\obj\Debug\netcoreapp2.0\CoffeeToGo.Api.AssemblyInfo.cs
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\obj\Debug\netcoreapp2.0\CoffeeToGo.Api.dll
+C:\Elouise\Projects\GitHub\coffeetogo\CoffeeToGo\CoffeeToGo.Api\obj\Debug\netcoreapp2.0\CoffeeToGo.Api.pdb

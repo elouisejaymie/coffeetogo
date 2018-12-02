@@ -1,0 +1,26 @@
+﻿<div class="row mt-5">
+    <div class="col-4 offset-4">
+        <h4>Add Supplies</h4>
+        <div class="mb-3">* Leave the field empty if you don't want to update it</div>
+        <form [formGroup]='suppliesForm' (ngSubmit)="onSuppliesFormSubmit(suppliesForm)">
+            <div class="mb-3">
+                <mat-form-field>
+                    <input matInput formControlName="coffeebeans" placeholder="Coffee Beans">
+                </mat-form-field>
+            </div>
+            <div class="mb-3">
+                <mat-form-field>
+                    <input matInput formControlName="sugar" placeholder="Sugar">
+                </mat-form-field>
+            </div>
+            <div class="mb-3">
+                <mat-form-field>
+                    <input matInput formControlName="milk" placeholder="Milk">
+                </mat-form-field>
+            </div>
+            <div class="button-row">
+                <button mat-raised-button>Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

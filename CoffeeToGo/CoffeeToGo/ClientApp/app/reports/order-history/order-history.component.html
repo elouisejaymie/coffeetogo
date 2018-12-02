@@ -1,0 +1,29 @@
+﻿<div class="row mt-5">
+    <div class="col-8 offset-2">
+        <h5>Order History</h5>
+        <div class="reports mt-4 mat-elevation-z1">
+            <table mat-table [dataSource]="dataSource">
+                <ng-container matColumnDef="beverage">
+                    <th mat-header-cell *matHeaderCellDef> Beverage </th>
+                    <td mat-cell *matCellDef="let row"> {{row.beverage}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="orderedBy">
+                    <th mat-header-cell *matHeaderCellDef> Ordered By </th>
+                    <td mat-cell *matCellDef="let row"> {{row.orderedBy}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="dateCreated">
+                    <th mat-header-cell *matHeaderCellDef> Date Ordered </th>
+                    <td mat-cell *matCellDef="let row"> {{row.dateCreated  | date: 'dd/MM/yyyy'}} </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+
+            <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" showFirstLastButtons></mat-paginator>
+        </div>
+
+    </div>
+</div>
